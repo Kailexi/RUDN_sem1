@@ -1,5 +1,5 @@
 
-name = 'Vadim_Segeyevich'
+name = 'Vadim_Sergeyevich'
 
 class Hello_Teacher:
     def __init__(self,hello):
@@ -7,4 +7,9 @@ class Hello_Teacher:
         print(f'Hello', {self.a},'!')
 
 
-x = Hello_Teacher('Alex') # bro why
+x = Hello_Teacher('Alex')
+
+
+
+
+
