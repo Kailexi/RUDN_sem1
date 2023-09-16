@@ -1,3 +1,6 @@
+
+
+
 def exercise1():
     v0 = int(input('Enter v0: '))
 
@@ -14,7 +17,7 @@ def exercise1():
         print(f'the estimate height is: {y:.5e} metres')
     else:
 
-        print(f'Bro no way that will through the textures')
+        print(f'Bro no way that will drop through the textures')
 
 def dz_ex1():
     x = 2
@@ -38,22 +41,81 @@ def dz_ex1():
     print(f'Value after logical expression is: {x}')
 
     x = str(x)
+
     print(f'Value after conversion is: {x} \nHowever the type is: {type(x)}')
 
 
+
 def dz_ex2():
-    b= []
-    print('Введите 5 значений')
-    for i in range(0,5):
+
+    b = []
+
+    print(f'Здравствуйте добро пожаловать в систему получения средних значений! \n '
+          f'Примечание: чтобы закончить выполнение программы введите 0 на клавиатуре \n'
+          f'Вы можете приступить к заполнению значений')
+
+
+
+
+    while True:
+
+        string_number = ''
+
         value = int(input())
+
         b.append(value)
-    the_sum = sum(b)
-    intermidiate_value = float(the_sum / len(b))
-    print(f'Среднее значение этих чисел равно {intermidiate_value:.5f}')
-'''''''''''
 
-    def dz_ex3():
+        for evaluate in range(0, len(b)):
+
+            string_number += str(b[evaluate])
+
+            if evaluate != len(b) - 1:
+
+                string_number += '+'
+
+        the_sum = sum(b)
+
+        intermidiate_value = float(the_sum / len(b))
+
+        print(f'Среднее значение чисел {string_number} равно {intermidiate_value:.5f}')
 
 
-    def dz_ex4():
-'''''''''''
+        if value == 0:
+
+            print('Программа остановлена')
+
+            break
+
+
+
+
+def dz_exdop_2():
+
+    cifri = []
+
+
+    izn = input('Введите целое число: ')
+
+    for i in range(0, len(izn)):
+        cifri.append(int(izn[i]))
+        print(f'Сумма цифр числа {izn} на данный момент равна: {sum(cifri)}')
+
+    print(f'Окончательная сумма цифр равна: {sum(cifri)}')
+
+def dz_exdop_3():
+
+    ok = ''
+
+    cifri = list(map(int,input('Введите числа из которых вы хотите найти максимальное и минимальное число: ').split()))
+
+    for i in range(0,len(cifri)):
+
+        ok += str(cifri[i])
+
+        if i < len(cifri) -1:
+
+            ok += ", "
+
+    print(f'Из данных чисел а именно {ok}, максимальное число это {max(cifri)} а минимальное {min(cifri)} ')
+
+
