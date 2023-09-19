@@ -1,24 +1,5 @@
 
 
-
-def exercise1():
-    v0 = int(input('Enter v0: '))
-
-    g = float(input('Enter g: '))
-
-    t = float(input('Enter t: '))
-
-    t_max = float((2 * v0) / g)
-
-    y = (v0 * t - 1 / 2 * g * t ** 2)
-
-    if 0 <= float(t) <= t_max:
-
-        print(f'the estimate height is: {y:.5e} metres')
-    else:
-
-        print(f'Bro no way that will drop through the textures')
-
 def dz_ex1():
     x = 2
 
@@ -48,7 +29,7 @@ def dz_ex1():
 
 def dz_ex2():
 
-    b = []
+    all_znach = []
 
     print(f'Здравствуйте добро пожаловать в систему получения средних значений! \n '
           f'Примечание: чтобы закончить выполнение программы введите 0 на клавиатуре \n'
@@ -63,19 +44,19 @@ def dz_ex2():
 
         value = int(input())
 
-        b.append(value)
+        all_znach.append(value)
 
-        for evaluate in range(0, len(b)):
+        for evaluate in range(0, len(all_znach)):
 
-            string_number += str(b[evaluate])
+            string_number += str(all_znach[evaluate])
 
-            if evaluate != len(b) - 1:
+            if evaluate != len(all_znach) - 1:
 
                 string_number += '+'
 
-        the_sum = sum(b)
+        the_sum = sum(all_znach)
 
-        intermidiate_value = float(the_sum / len(b))
+        intermidiate_value = float(the_sum / len(all_znach))
 
         print(f'Среднее значение чисел {string_number} равно {intermidiate_value:.5f}')
 
@@ -104,18 +85,18 @@ def dz_exdop_2():
 
 def dz_exdop_3():
 
-    ok = ''
+    spisok_chicel = ''
 
     cifri = list(map(int,input('Введите числа из которых вы хотите найти максимальное и минимальное число: ').split()))
 
     for i in range(0,len(cifri)):
 
-        ok += str(cifri[i])
+        spisok_chicel += str(cifri[i])
 
         if i < len(cifri) -1:
 
-            ok += ", "
+            spisok_chicel += ", "
 
-    print(f'Из данных чисел а именно {ok}, максимальное число это {max(cifri)} а минимальное {min(cifri)} ')
+    print(f'Из данных чисел а именно {spisok_chicel}, максимальное число это {max(cifri)} а минимальное {min(cifri)} ')
 
 
