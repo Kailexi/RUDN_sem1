@@ -29,7 +29,7 @@ def dz_ex1():
 
 def dz_ex2():
 
-    all_znach = []
+    znachenia = []
 
     print(f'Здравствуйте добро пожаловать в систему получения средних значений! \n '
           f'Примечание: чтобы закончить выполнение программы введите 0 на клавиатуре \n'
@@ -40,25 +40,25 @@ def dz_ex2():
 
     while True:
 
-        string_number = ''
+        vse_chisla = ''
 
         value = int(input())
 
-        all_znach.append(value)
+        znachenia.append(value)
 
-        for evaluate in range(0, len(all_znach)):
+        for evaluate in range(0, len(znachenia)):
 
-            string_number += str(all_znach[evaluate])
+            vse_chisla += str(znachenia[evaluate])
 
-            if evaluate != len(all_znach) - 1:
+            if evaluate != len(znachenia) - 1:
 
-                string_number += '+'
+                vse_chisla += '+'
 
-        the_sum = sum(all_znach)
+        the_sum = sum(znachenia)
 
-        intermidiate_value = float(the_sum / len(all_znach))
+        intermidiate_value = float(the_sum / len(znachenia))
 
-        print(f'Среднее значение чисел {string_number} равно {intermidiate_value:.5f}')
+        print(f'Среднее значение чисел {vse_chisla} равно {intermidiate_value:.5f}')
 
 
         if value == 0:
@@ -75,18 +75,17 @@ def dz_exdop_2():
     cifri = []
 
 
-    izn = input('Введите целое число: ')
+    vhodchislo = input('Введите целое число: ')
 
-    for i in range(0, len(izn)):
-        cifri.append(int(izn[i]))
-        print(f'Сумма цифр числа {izn} на данный момент равна: {sum(cifri)}')
+    for i in range(0, len(vhodchislo)):
+        cifri.append(int(vhodchislo[i]))
+        print(f'Сумма цифр числа {vhodchislo} на данный момент равна: {sum(cifri)}')
 
     print(f'Окончательная сумма цифр равна: {sum(cifri)}')
 
 def dz_exdop_3():
 
     spisok_chicel = ''
-
     cifri = list(map(int,input('Введите числа из которых вы хотите найти максимальное и минимальное число: ').split()))
 
     for i in range(0,len(cifri)):
