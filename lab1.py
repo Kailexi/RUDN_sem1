@@ -7,6 +7,8 @@ def dz_ex1():
 
     x += 3
 
+
+
     print(f'Value after +=3 addition: {x}')
 
     x = (x + 1) / 2
