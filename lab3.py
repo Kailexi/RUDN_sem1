@@ -10,7 +10,7 @@ def thirdStatement(n):
 
 def fourthStatement(n):
     try:
-        return len(n) == 3 and (str(x)[0] == str(x)[1] == str(x)[2])
+        return len(n) == 3 and (str(n)[0] == str(n)[1] == str(n)[2])
     except:
         return False
 
