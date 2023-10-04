@@ -101,3 +101,4 @@ def dz_exdop_3():
     print(f'Из данных чисел а именно {spisok_chicel}, максимальное число это {max(cifri)} а минимальное {min(cifri)} ')
 
 
+''''''
