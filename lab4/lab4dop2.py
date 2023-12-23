@@ -1,5 +1,6 @@
 from ctypes import c_float, c_int32, cast, byref, POINTER
 
+
 def c_plus_plus_is_better(number):
     threehalfs = 1.5
     x2 = number * 0.5
