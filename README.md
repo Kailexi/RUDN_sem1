@@ -1,1 +1,1 @@
-Rudn seminar 1 labys for getting an A+
+RUDN semestr 1 Python tasks for getting an A+
