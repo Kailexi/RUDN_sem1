@@ -1,4 +1,4 @@
-#RUDN_Semester 1 Python Laboratory work
+# RUDN_Semester 1 Python Laboratory work
 
 Semester 1 of RUDN Programming
 
