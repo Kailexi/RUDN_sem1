@@ -3,11 +3,11 @@
 Semester 1 of RUDN Programming
 
 My Python solutions for laboratory work
-P.S Homework only, btw 
+P.S. Homework only, btw 
 
-#I got an A+, and so can you, study what everything does!
+# I got an A+, and so can you, study what everything does!
 
-#GL to anyone reading this❤️
+# GL to anyone reading this❤️
 
 
 Special thanks to Rostik for or @mosheadd for providing some code for labs - №5; №6
