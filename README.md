@@ -10,7 +10,7 @@ P.S. Homework only, btw
 # GL to anyone reading this❤️
 
 
-Special thanks to Rostik for or @mosheadd for providing some code for labs - №5; №6
+Special thanks to Rostik or @mosheadd for providing some code for labs - №5; №6
 
 ## Author
 
